@@ -13,3 +13,7 @@ func NewDog(name string) *Dog {
 func (d *Dog) String() string {
 	return d.name
 }
+
+func (d *Dog) Noise() string {
+	return "Bark"
+}
